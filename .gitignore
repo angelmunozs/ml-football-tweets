@@ -1,3 +1,4 @@
 *.csv
 !footballsentiment_task.csv
 !footballsentiment_task_run.csv
+!datasets/*.csv
