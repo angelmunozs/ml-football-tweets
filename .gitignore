@@ -2,3 +2,4 @@
 !footballsentiment_task.csv
 !footballsentiment_task_run.csv
 !datasets/*.csv
+!corpus_tweets_preprocessed.csv
