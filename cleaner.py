@@ -14,5 +14,5 @@ def clean_tweets(tweets, col_name):
     # Replace multiple spaces with single one
     tweets[col_name] = tweets[col_name].map(lambda x: re.sub(re.compile('[\s]+'), ' ', x))
     # Remove emojis
-    tweets[col_name] = tweets[col_name].map(lambda x: re.sub(emoji_regex, ' ', x))
+    #tweets[col_name] = tweets[col_name].map(lambda x: re.sub(emoji_regex, ' ', x))
     return tweets
